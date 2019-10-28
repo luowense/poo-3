@@ -1,4 +1,5 @@
 <?php
+
 abstract class HighWay {
     /**
      * @var array to define the number of vehicles

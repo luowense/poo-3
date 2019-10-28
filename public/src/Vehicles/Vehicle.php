@@ -25,28 +25,3 @@ class Vehicle {
         return $this;
     }
 }
-
-class Car extends Vehicle{
-
-    public function __construct($color, $nbWheels)
-    {
-        parent::__construct($color, $nbWheels);
-    }
-}
-
-class Skateboard extends Vehicle{
-
-    public function __construct($color, $nbWheels)
-    {
-        parent::__construct($color, $nbWheels);
-    }
-
-}
-
-class Bike extends Vehicle {
-
-    public function __construct($color, $nbWheels)
-    {
-        parent::__construct($color, $nbWheels);
-    }
-}
