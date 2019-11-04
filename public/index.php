@@ -1,10 +1,10 @@
 <?php
-require_once 'Bike.php';
-require_once 'Car.php';
-require_once 'Skateboard.php';
-require_once 'Motorway.php';
-require_once 'PedestrianWay.php';
-require_once 'ResidentialWay.php';
+require_once 'src/Vehicles/Bike.php';
+require_once 'src/Vehicles/Car.php';
+require_once 'src/Vehicles/Skateboard.php';
+require_once 'src/Way/Motorway.php';
+require_once 'src/Way/PedestrianWay.php';
+require_once 'src/Way/ResidentialWay.php';
 
 $bike = new Bike('white', 2);
 $car = new Car('red', 4);
